@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secciones y líneas generales de un documento HTML5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<section>
+    <h1>Secciones y esquema de un documento HTML5</h1>
+    <p>La especificación HTML5 trae muchos nuevos elementos a los desarrolladores web, 
+        permitiéndoles describir la estructura de un documento web con semántica estandarizada. 
+        Este documento describe estos elementos y cómo usarlos para definir el esquema de cualquier documento.
+    </p>
+    <h1>Problemas resueltos por HTML5</h1>
+    <p>La definición de la estructura de un documento en HTML 4 y su algoritmo de esquematizado 
+        es muy tosco y genera numerosos problemas:<br>
+    </p>
+    <ol>
+        <li>
+            El uso de &lt;div&gt; para definir secciones semánticas sin definir valores específicos para los 
+            atributos class hace imposible la automatización del algoritmo de esquematizado 
+            ("¿Es ese &lt;div&gt; parte del esquema de la página, definiendo una sección o subsección?" o 
+            "¿es un &lt;div&gt; sólo de presentación, sólo usado para estilo?"). En otras palabras, 
+            la especificación HTML4 es muy imprecisa de lo que es una sección y cómo ese ámbito 
+            está definido. La generación automatizada del esquema es importante, especialmente 
+            para tecnologías de apoyo, que son capaces de adaptar la forma en que presentan información 
+            a los usuarios de acuerdo a la estructura del documento. HTML5 quita la necesidad de elementos
+            &lt;div&gt; del algoritmo de esquematizado introduciendo un nuevo elemento, &lt;section&gt;, el elemento de 
+            sección HTML.
+        </li>
+        <li>
+            Mezclar varios documentos es difícil: la inclusión de un sub-documento en un documento principal 
+            significa cambiar el nivel de los elementos de cabecera HTML Headings Element para que el esquema se mantenga. 
+            Esto se resuelve en HTML5 con los recientemente introducidos elementos de seccionado 
+            (&lt;article&gt;, &lt;section&gt;, &lt;nav&gt; y &lt;aside&gt;) son siempre subsecciones dentro de la sección que las contiene, 
+            sin importar qué secciones son creadas por cabeceras internas.
+        </li>
+        <li>
+            Debido a que cada elemento de cabecera HTML es parte del esquema, no es posible describir un subtítulo o 
+            título secundario (por ejemplo, "&lt;h1&gt;"Moz&gt;art"&lt;/h1&gt;&lt;h2&lt;"El genio salzburgués"&lt;h2&gt;" crea el esquema 1. 
+            Mozart 1.1 El genio salzburgués). HTML5 introduce el elemento &lt;hgroup&gt; que oculta todos los elementos 
+            de cabecera excepto el primero de más alto rango 
+            (por ejemplo, &lt;hgroup&gt;&lt;h1&gt;"Mozart"&lt;/h1&gt;&lt;h2&gt;"El genio salzburgués"&lt;/h2&gt;&lt;/hgroup&gt; crea el esquema 1. Mozart).
+        </li>
+    </ol>
+</section>
+</body>
+</html>

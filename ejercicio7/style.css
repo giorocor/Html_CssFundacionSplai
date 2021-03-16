@@ -1,0 +1,47 @@
+
+body{
+    font-size: 1rem;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+
+}
+
+section{
+    width: 50%;
+    margin: auto;
+    padding: 15px;
+    border: grey solid 1px;
+}
+
+h1{
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+h2{
+    font-weight: 600 ;
+    font-size: 1.5rem;
+    line-height: 0;
+}
+h3{
+    font-size: 1rem;
+    font-weight: bold;
+}
+p{
+    text-align: justify;
+}
+
+.verde{
+    color: rgb(25, 131, 15);
+}
+
+.cafe{
+    color: brown;
+}
+
+.verdeClaro{
+    color: rgb(34, 214, 34);
+}
+.cafeClaro{
+    color:rgb(209, 102, 102);
+}

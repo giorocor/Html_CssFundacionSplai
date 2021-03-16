@@ -1,0 +1,86 @@
+html{
+    box-sizing:border-box;
+}
+
+body{
+    font-size: 1rem;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    width: 900px;
+    margin: auto;
+    padding: 10px;
+    border: grey solid 3px;
+}
+
+nav{
+    position:fixed;
+    height: 100vw;
+    min-width: 120px;
+    width: 180px;
+}
+ul{
+ list-style: none;
+}
+
+a{
+    text-decoration:none;
+}
+
+
+nav ul li{
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    background:linear-gradient(0, green, white);
+    border: solid 2px ;
+}
+nav ul li:hover{
+    background:linear-gradient(0,rgb(173, 55, 35), white);
+
+}
+
+section{
+    width: 50%;
+    margin: auto;
+    padding: 15px;
+    border: grey solid 1px;
+    background: linear-gradient(0deg, rgba(176,176,176,1) 0%, rgba(255,255,255,1) 60%, rgba(176,176,176,1) 100%);
+}
+
+footer{
+    text-align: center;
+}
+
+h1{
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+h2{
+    font-weight: 600 ;
+    font-size: 1.5rem;
+    line-height: 0;
+}
+h3{
+    font-size: 1rem;
+    font-weight: bold;
+}
+p{
+    text-align: justify;
+}
+
+.verde{
+    color: rgb(25, 131, 15);
+}
+
+.cafe{
+    color: brown;
+}
+
+.verdeClaro{
+    color: rgb(34, 214, 34);
+}
+.cafeClaro{
+    color:rgb(209, 102, 102);
+}
+

@@ -1,0 +1,78 @@
+html{
+    box-sizing:border-box;
+}
+
+body{
+    font-size: 1rem;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    width: 900px;
+    margin: auto;
+    padding: 10px;
+    border: grey solid 3px;
+}
+
+nav{
+    position:absolute;
+    width: 10%;
+}
+ul{
+ list-style: none;
+}
+
+a{
+    text-decoration:none;
+}
+
+
+nav ul li{
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    background-color: rgb(51, 167, 51);
+    border: solid 2px ;
+}
+nav ul li:hover{
+    background-color: rgb(173, 55, 35);
+}
+
+section{
+    width: 50%;
+    margin: auto;
+    padding: 15px;
+    border: grey solid 1px;
+}
+
+h1{
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+h2{
+    font-weight: 600 ;
+    font-size: 1.5rem;
+    line-height: 0;
+}
+h3{
+    font-size: 1rem;
+    font-weight: bold;
+}
+p{
+    text-align: justify;
+}
+
+.verde{
+    color: rgb(25, 131, 15);
+}
+
+.cafe{
+    color: brown;
+}
+
+.verdeClaro{
+    color: rgb(34, 214, 34);
+}
+.cafeClaro{
+    color:rgb(209, 102, 102);
+}
+
